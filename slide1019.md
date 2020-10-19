@@ -8,13 +8,15 @@ class: center, middle, inverse
 ---
 layout:false
 ##  何をやるか
-- マニピュレータにハンコを持たせ書類に**捺印**する．
-![image](https://user-images.githubusercontent.com/53966390/96399053-592b9980-1208-11eb-91d4-6196beb79dae.png)
+- マニピュレータにハンコを持たせ書類に**捺印**する．<br>
+
+  ![image](https://user-images.githubusercontent.com/53966390/96399892-6c3f6900-120a-11eb-91fc-7c0e49305c35.png)
 
 ---
 ##  なんでこれをやるか(何が面白いのか)
--  デジタル化が進む中ハンコは必要だと河野大臣に反抗するためにハンコを押すロボットを開発する。
-![image](https://user-images.githubusercontent.com/53966390/96399498-74e36f80-1209-11eb-8033-5b2c91239616.png)
+-  デジタル化が進む中ハンコは必要だと河野大臣に反抗するためにハンコを押すロボットを開発する。<br>
+
+  ![image](https://user-images.githubusercontent.com/53966390/96399944-86794700-120a-11eb-92d7-a2298c1c1256.png)
 ---
 ##  使用するもの
 - 道具
