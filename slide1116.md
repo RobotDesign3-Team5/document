@@ -110,17 +110,28 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 - ### モデルを inventor & blender で作成，gazeboに反映
     - modelごとにリポジトリを作成
       - [ハンコ＋補助モデル](https://github.com/RobotDesign3-Team5/asstseal_model)
+
           <img src="https://user-images.githubusercontent.com/53966390/98900675-988e9280-24f5-11eb-9e70-8b6100c64a77.jpg" width="320px">
           <img src="https://user-images.githubusercontent.com/53966390/98900678-99272900-24f5-11eb-96c8-c785c0fa6082.jpg" width="320px">
+
       - [ハンコ台](https://github.com/RobotDesign3-Team5/storage_model)
+
           <img src="https://user-images.githubusercontent.com/53966390/98900668-96c4cf00-24f5-11eb-8b81-0fe8388586a7.jpg" width="320px">
+
       - [朱肉](https://github.com/RobotDesign3-Team5/inkpad_model)
+
           <img src="https://user-images.githubusercontent.com/53966390/98900671-97f5fc00-24f5-11eb-95a0-b5781d9777db.jpg" width="320px">
+
       - [ハンコマット](https://github.com/RobotDesign3-Team5/sealmat_model)
+
           <img src="https://user-images.githubusercontent.com/53966390/98900670-97f5fc00-24f5-11eb-8ccf-9839927e9fd1.jpg" width="320px">
+
       - [雑巾](https://github.com/RobotDesign3-Team5/TissuePaper_model)
+
           <img src="https://user-images.githubusercontent.com/53966390/98900677-988e9280-24f5-11eb-8647-7b0109d05435.jpg" width="320px">
+
       - モデルinventor設計は主に**朱広樹**が担当
+      
         - [消しゴム](https://github.com/RobotDesign3-Team5/eraser_model)
         - [電池](https://github.com/RobotDesign3-Team5/battery_model)
         - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
@@ -144,7 +155,6 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 	- ハンコ・ハンコマット・朱肉
 -	### モデル作成
 	- スティックのり・消しゴム・電池モデルをInventorで作成
-
       <img src="https://user-images.githubusercontent.com/53966390/98897377-9e34aa00-24ee-11eb-9d2e-8dc23c2430b9.png" width="320px">
 
       <img src="https://user-images.githubusercontent.com/53966390/98897378-9e34aa00-24ee-11eb-8533-5c8a92231288.png" width="320px">
@@ -162,6 +172,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 	-	雑巾に擦りつけ朱肉汚れを落とす．
     [![拭く](https://img.youtube.com/vi/8uCIRfLJ1HA/maxresdefault.jpg)](https://youtu.be/8uCIRfLJ1HA)
     ※画像をクリックするとYoutubeに飛びます．
+
 - ### アームにお辞儀をさせる動作を追加
 	-	前左右の方向に深々とお辞儀する．
     [![お辞儀](https://img.youtube.com/vi/5FEK7ri63Ec/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
