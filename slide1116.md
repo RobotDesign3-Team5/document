@@ -9,6 +9,14 @@
 ## 活動方針
  - 10月12日にGitHub Organizationを作成．
  - RT crane_x7_ros リポジトリをForkし，各自ブランチを分けて作業．
+    - [久保寺 : masato](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/masato)
+    - [朱 : shu](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/shu)
+    - [白須 : kazuki_robo3](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/kazuki_robo3)
+    - [高橋 : naoya](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/naoya)
+    - [横尾 : rikuyokoo](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/rikuyokoo)
+
+    - [実機調整用ブランチ : dev](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/dev)
+    - [master](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/master)
  - 木曜日にミーティングを行い，進捗を確認．
 
 ---
@@ -35,7 +43,7 @@
 
 ---
 ## 最終的なタスク・進捗表
-  <img src="https://user-images.githubusercontent.com/53966390/98899202-80694400-24f2-11eb-93d8-3cb9ab9a5de6.png" width="640px">
+  <img src="https://user-images.githubusercontent.com/53966390/98914660-4442dd00-250c-11eb-80bc-f432447c7950.png" width="640px">
 
 ---
 ## はんこを確実に持つために
@@ -82,7 +90,6 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 
 ## 配置
 <img src="https://user-images.githubusercontent.com/53966271/98900657-90ceee00-24f5-11eb-842a-0d17a6daa277.jpg" width="640px">
-<img src="" width="640px">
 
 ---
 ## 実機動作動画（前方カメラ）
@@ -113,10 +120,12 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
           <img src="https://user-images.githubusercontent.com/53966390/98900670-97f5fc00-24f5-11eb-8ccf-9839927e9fd1.jpg" width="320px">
       - [雑巾](https://github.com/RobotDesign3-Team5/TissuePaper_model)
           <img src="https://user-images.githubusercontent.com/53966390/98900677-988e9280-24f5-11eb-8647-7b0109d05435.jpg" width="320px">
-      - モデル設計は**朱広樹**が担当
+      - モデルinventor設計は主に**朱広樹**が担当
         - [消しゴム](https://github.com/RobotDesign3-Team5/eraser_model)
         - [電池](https://github.com/RobotDesign3-Team5/battery_model)
         - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
+
+      <img src="https://user-images.githubusercontent.com/53966390/98899884-e30f0f80-24f3-11eb-924f-7da3aa69754d.png" width="640px">
 
 - ### ハンコ補助モデルの３Dプリントパーツの作成
     <img src="https://user-images.githubusercontent.com/53966390/98897896-bbb64380-24ef-11eb-9a95-c6d6a5ef4a4b.jpg" width="320px">
@@ -125,7 +134,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 
 - ### ハンコを朱肉につける動作を追加
   [![拭く](https://img.youtube.com/vi/CECq17Bn3L4/maxresdefault.jpg)](https://youtu.be/CECq17Bn3L4)
-  [動作の様子](https://youtu.be/CECq17Bn3L4)
+  ※画像をクリックするとYoutubeに飛びます．
 - ### セットアップマニュアル(README)を作成
   -  [セットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual)
 
@@ -144,33 +153,33 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 
 -	### ハンコを選び，迷う動作を追加
 	-	スティックのり・消しゴム・電池を掴みそうになる動作
-      [![ハンコ選び](https://img.youtube.com/vi/fH9kEs87PPY/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
-      [動作の様子](https://youtu.be/fH9kEs87PPY)
+      [![ハンコ選び](https://img.youtube.com/vi/fH9kEs87PPY/maxresdefault.jpg)](https://youtu.be/fH9kEs87PPY)
+      ※画像をクリックするとYoutubeに飛びます．
 
 ---
 ## 白須和暉
 -	### ハンコを拭く動作を追加
 	-	雑巾に擦りつけ朱肉汚れを落とす．
     [![拭く](https://img.youtube.com/vi/8uCIRfLJ1HA/maxresdefault.jpg)](https://youtu.be/8uCIRfLJ1HA)
-    [動作の様子](https://youtu.be/8uCIRfLJ1HA)
+    ※画像をクリックするとYoutubeに飛びます．
 - ### アームにお辞儀をさせる動作を追加
 	-	前左右の方向に深々とお辞儀する．
     [![お辞儀](https://img.youtube.com/vi/5FEK7ri63Ec/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
-    [動作の様子](https://youtu.be/5FEK7ri63Ec)
+    ※画像をクリックするとYoutubeに飛びます．
 
 ---
 ## 高橋直也
 -	### 書類に目を通す動作を追加
 	- 書類の上でアームを左右に動かす．
     [![書類に目を通す](https://img.youtube.com/vi/-X19rAL2V-g/maxresdefault.jpg)](https://youtu.be/-X19rAL2V-g)
-    [動作の様子](https://youtu.be/-X19rAL2V-g)
+    ※画像をクリックするとYoutubeに飛びます．
 
 ---
 ## 横尾陸
 - ### ハンコを押すときのリアルを追求
 	- 力を入れて押すのをイメージしてアームを動かしたが、押す部分がずれてしまいきれいに映らなかったため導入しなかった。
     [![グリグリ](https://img.youtube.com/vi/7w3rHCQwpf0/maxresdefault.jpg)](https://youtu.be/7w3rHCQwpf0)
-    [動作の様子](https://youtu.be/7w3rHCQwpf0)
+    ※画像をクリックするとYoutubeに飛びます．
 
 - ### 移動経路が毎回異なる問題を解決
 	- 経路が違うことで、ハンコの向きが毎回異なりキレイにハンコが押せないという問題があり、srdfでハンコをつかむ前と押す前の姿勢を指定することで解決した。
@@ -180,6 +189,8 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
       <img src="https://user-images.githubusercontent.com/53966390/98891114-daf9a480-24e0-11eb-934e-b3447273864f.png" width="320px">
 
       <img src="https://user-images.githubusercontent.com/53966390/98891115-dc2ad180-24e0-11eb-8742-0e384b49c550.png" width="320px">
+
+- ### セットアップマニュアル(README)を作成
 
 ---
 ## 今後の課題・反省
