@@ -146,6 +146,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 - ### ハンコを朱肉につける動作を追加
   [![拭く](https://img.youtube.com/vi/CECq17Bn3L4/maxresdefault.jpg)](https://youtu.be/CECq17Bn3L4)
   ※画像をクリックするとYoutubeに飛びます．
+
   ![image](https://user-images.githubusercontent.com/53966390/98916783-ee236900-250e-11eb-81d6-cd313a33d9f2.png)
 - ### セットアップマニュアル(README)を作成
   -  [セットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual)
@@ -167,6 +168,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 	-	スティックのり・消しゴム・電池を掴みそうになる動作
       [![ハンコ選び](https://img.youtube.com/vi/fH9kEs87PPY/maxresdefault.jpg)](https://youtu.be/fH9kEs87PPY)
       ※画像をクリックするとYoutubeに飛びます．
+
       ![image](https://user-images.githubusercontent.com/53966390/98916291-59207000-250e-11eb-9548-71232c884ea7.png)
 
 ---
@@ -175,12 +177,14 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 	-	前左右の方向に深々とお辞儀する．
     [![お辞儀](https://img.youtube.com/vi/5FEK7ri63Ec/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
     ※画像をクリックするとYoutubeに飛びます．
+
     ![image](https://user-images.githubusercontent.com/53966390/98916408-7d7c4c80-250e-11eb-8509-656f195f815c.png)
 
 -	### ハンコを拭く動作を追加
 	-	雑巾に擦りつけ朱肉汚れを落とす．
     [![拭く](https://img.youtube.com/vi/8uCIRfLJ1HA/maxresdefault.jpg)](https://youtu.be/8uCIRfLJ1HA)
     ※画像をクリックするとYoutubeに飛びます．
+
     ![image](https://user-images.githubusercontent.com/53966390/98916510-9a188480-250e-11eb-8c6c-ae675615a52b.png)
 
 ---
@@ -189,6 +193,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 	- 書類の上でアームを左右に動かす．
     [![書類に目を通す](https://img.youtube.com/vi/-X19rAL2V-g/maxresdefault.jpg)](https://youtu.be/-X19rAL2V-g)
     ※画像をクリックするとYoutubeに飛びます．
+
     ![image](https://user-images.githubusercontent.com/53966390/98916202-34c49380-250e-11eb-9cca-03c7ddaa7809.png)
 
 
@@ -198,6 +203,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 	- 力を入れて押すのをイメージしてアームを動かしたが、押す部分がずれてしまいきれいに映らなかったため導入しなかった。
     [![グリグリ](https://img.youtube.com/vi/7w3rHCQwpf0/maxresdefault.jpg)](https://youtu.be/7w3rHCQwpf0)
     ※画像をクリックするとYoutubeに飛びます．
+    
     ![image](https://user-images.githubusercontent.com/53966390/98916671-c8965f80-250e-11eb-9e4c-69f21f92c725.png)
 
 - ### 移動経路が毎回異なる問題を解決
