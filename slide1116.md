@@ -52,6 +52,10 @@
 
 ---
 ## gazebo シミュレーション
+gazebo上に実際と同じ形のモデルを作成することで，シミュレーションを容易に行えるようにした．
+  <img src="https://user-images.githubusercontent.com/53966390/98899884-e30f0f80-24f3-11eb-924f-7da3aa69754d.png" width="320px">
+
+  -  [5班 gazeboセットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual#gazebo%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88)
 
 ---
 ## 環境
@@ -76,6 +80,10 @@
 
 <img src="https://user-images.githubusercontent.com/53966390/98886454-77b74480-24d7-11eb-9144-1a447d2191e7.png" width="640px">
 
+## 配置
+<img src="https://user-images.githubusercontent.com/53966271/98900657-90ceee00-24f5-11eb-842a-0d17a6daa277.jpg" width="640px">
+<img src="" width="640px">
+
 ---
 ## 実機動作動画（前方カメラ）
 [![Watch the video](https://user-images.githubusercontent.com/53966390/98893099-19915e00-24e5-11eb-9425-247b738c1b3d.png)](https://youtu.be/xeJfs4FgBNw)
@@ -88,20 +96,27 @@
 
 ---
 ## 捺印した書類
-<img src="https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png" width="320px">
+<img src="https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png" width="640px">
   
 ---
 ## 久保寺真仁
 - ### モデルを inventor & blender で作成，gazeboに反映
     - modelごとにリポジトリを作成
       - [ハンコ＋補助モデル](https://github.com/RobotDesign3-Team5/asstseal_model)
+          <img src="https://user-images.githubusercontent.com/53966390/98900675-988e9280-24f5-11eb-9e70-8b6100c64a77.jpg" width="320px">
+          <img src="https://user-images.githubusercontent.com/53966390/98900678-99272900-24f5-11eb-96c8-c785c0fa6082.jpg" width="320px">
       - [ハンコ台](https://github.com/RobotDesign3-Team5/storage_model)
+          <img src="https://user-images.githubusercontent.com/53966390/98900668-96c4cf00-24f5-11eb-8b81-0fe8388586a7.jpg" width="320px">
       - [朱肉](https://github.com/RobotDesign3-Team5/inkpad_model)
+          <img src="https://user-images.githubusercontent.com/53966390/98900671-97f5fc00-24f5-11eb-95a0-b5781d9777db.jpg" width="320px">
       - [ハンコマット](https://github.com/RobotDesign3-Team5/sealmat_model)
+          <img src="https://user-images.githubusercontent.com/53966390/98900670-97f5fc00-24f5-11eb-8ccf-9839927e9fd1.jpg" width="320px">
       - [雑巾](https://github.com/RobotDesign3-Team5/TissuePaper_model)
-      - [消しゴム](https://github.com/RobotDesign3-Team5/eraser_model)
-      - [電池](https://github.com/RobotDesign3-Team5/battery_model)
-      - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
+          <img src="https://user-images.githubusercontent.com/53966390/98900677-988e9280-24f5-11eb-8647-7b0109d05435.jpg" width="320px">
+      - モデル設計は**朱広樹**が担当
+        - [消しゴム](https://github.com/RobotDesign3-Team5/eraser_model)
+        - [電池](https://github.com/RobotDesign3-Team5/battery_model)
+        - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
 
 - ### ハンコ補助モデルの３Dプリントパーツの作成
     <img src="https://user-images.githubusercontent.com/53966390/98897896-bbb64380-24ef-11eb-9a95-c6d6a5ef4a4b.jpg" width="320px">
@@ -120,6 +135,7 @@
 	- ハンコ・ハンコマット・朱肉
 -	### モデル作成
 	- スティックのり・消しゴム・電池モデルをInventorで作成
+
       <img src="https://user-images.githubusercontent.com/53966390/98897377-9e34aa00-24ee-11eb-9d2e-8dc23c2430b9.png" width="320px">
 
       <img src="https://user-images.githubusercontent.com/53966390/98897378-9e34aa00-24ee-11eb-8533-5c8a92231288.png" width="320px">
@@ -169,5 +185,3 @@
 ## 今後の課題・反省
 
   今は座標指定でアームを動かしているのでセンサなどを使いランダムの位置でも実行できるようにする。
-
-
