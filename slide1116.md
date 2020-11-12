@@ -27,26 +27,31 @@
 |10.|ホームポジションに戻る||
 
 動作のリアルさを追求することや，動作の確実性を求めて活動．
-
----
-### 
 - お辞儀する礼儀正しさ　
 - 文章をなぞって確認する慎重さ
--   持つものを迷う人間らしさ
--   使った後にハンコを拭き元に戻す几帳面さ
+- 持つものを迷う人間らしさ
+- 朱肉がついたかを確認する几帳面さ
+- 使った後にハンコを拭き元に戻すきれい好き
 
 ---
-## 最終的なタスク表
-# 要変更
+## 最終的なタスク・進捗表
+  <img src="https://user-images.githubusercontent.com/53966390/98899202-80694400-24f2-11eb-93d8-3cb9ab9a5de6.png" width="640px">
 
 ---
-## はんこ
+## はんこを確実に持つために
+  直径10mm円柱のハンコをCRANE-X7で持つには限界があり，補助パーツを作成し確実につかめるように改良しました．
+- ### 初期バージョン(10/20)
+  <img src="https://user-images.githubusercontent.com/53966390/98897015-bce67100-24ed-11eb-9c73-90998d6492cb.png" width="320px">
+
+  [![初期モデルの動作](https://img.youtube.com/vi/Y_glLZigQeE/maxresdefault.jpg)](https://youtu.be/Y_glLZigQeE)
+  [動作の様子](https://youtu.be/Y_glLZigQeE)
+
+- ### 中間発表バージョン
+  <img src="https://user-images.githubusercontent.com/53966390/98893993-15fed680-24e7-11eb-913e-333a53b3b8e3.jpg" width="320px">
+  <img src="https://user-images.githubusercontent.com/53966390/98893997-17300380-24e7-11eb-9199-25a2cc9a4085.jpg" width="320px">
 
 ---
 ## gazebo シミュレーション
-  2週目までに実際と同じ環境をgazeboで．．．．．
- # ※ここの写真変更する必要あり
-![gazebo](https://user-images.githubusercontent.com/53966271/98534167-65ff5280-22c7-11eb-99b9-e28816c1ab5a.png)
 
 ---
 ## 環境
@@ -69,7 +74,7 @@
 - 消しゴム
 - 電池
 
-![image](https://user-images.githubusercontent.com/53966390/98886454-77b74480-24d7-11eb-9144-1a447d2191e7.png)
+<img src="https://user-images.githubusercontent.com/53966390/98886454-77b74480-24d7-11eb-9144-1a447d2191e7.png" width="640px">
 
 ---
 ## 実機動作動画（前方カメラ）
@@ -83,11 +88,11 @@
 
 ---
 ## 捺印した書類
-![image](https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png)
-
+<img src="https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png" width="320px">
+  
 ---
 ## 久保寺真仁
-- モデルを inventor & blender で作成，gazeboに反映
+- ### モデルを inventor & blender で作成，gazeboに反映
     - modelごとにリポジトリを作成
       - [ハンコ＋補助モデル](https://github.com/RobotDesign3-Team5/asstseal_model)
       - [ハンコ台](https://github.com/RobotDesign3-Team5/storage_model)
@@ -98,58 +103,67 @@
       - [電池](https://github.com/RobotDesign3-Team5/battery_model)
       - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
 
-- ハンコ補助モデルの３Dプリントパーツの作成
-  - [ハンコ＋補助モデル 3Dデータ](https://github.com/RobotDesign3-Team5/asstseal_model)
-  - [ハンコ台 3Dデータ](https://github.com/RobotDesign3-Team5/storage_model)
-  
-  ![補助モデル１](https://user-images.githubusercontent.com/53966390/98893993-15fed680-24e7-11eb-913e-333a53b3b8e3.jpg)
-  ![補助モデル２](https://user-images.githubusercontent.com/53966390/98893997-17300380-24e7-11eb-9199-25a2cc9a4085.jpg)
+- ### ハンコ補助モデルの３Dプリントパーツの作成
+    <img src="https://user-images.githubusercontent.com/53966390/98897896-bbb64380-24ef-11eb-9a95-c6d6a5ef4a4b.jpg" width="320px">
 
-- ハンコを朱肉につける動作を追加
-- セットアップマニュアル(README)を作成
+    <img src="https://user-images.githubusercontent.com/53966390/98897898-bce77080-24ef-11eb-8e18-c336e494b526.jpg" width="320px">
+
+- ### ハンコを朱肉につける動作を追加
+  [![拭く](https://img.youtube.com/vi/CECq17Bn3L4/maxresdefault.jpg)](https://youtu.be/CECq17Bn3L4)
+  [動作の様子](https://youtu.be/CECq17Bn3L4)
+- ### セットアップマニュアル(README)を作成
   -  [セットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual)
 
 ---
 ## 朱広樹
-- 物品の購入・研修・採寸
+- ### 物品の購入・研修・採寸
 	- ハンコ・ハンコマット・朱肉
--	モデル作成
+-	### モデル作成
 	- スティックのり・消しゴム・電池モデルをInventorで作成
--	ハンコを選び，迷う動作を追加
+      <img src="https://user-images.githubusercontent.com/53966390/98897377-9e34aa00-24ee-11eb-9d2e-8dc23c2430b9.png" width="320px">
+
+      <img src="https://user-images.githubusercontent.com/53966390/98897378-9e34aa00-24ee-11eb-8533-5c8a92231288.png" width="320px">
+
+      <img src="https://user-images.githubusercontent.com/53966390/98897373-9d037d00-24ee-11eb-96a3-888be10ec1c4.png" width="320px">
+
+-	### ハンコを選び，迷う動作を追加
 	-	スティックのり・消しゴム・電池を掴みそうになる動作
+      [![ハンコ選び](https://img.youtube.com/vi/fH9kEs87PPY/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
+      [動作の様子](https://youtu.be/fH9kEs87PPY)
+
 ---
 ## 白須和暉
--	ハンコを拭く動作を追加
+-	### ハンコを拭く動作を追加
 	-	雑巾に擦りつけ朱肉汚れを落とす．
     [![拭く](https://img.youtube.com/vi/8uCIRfLJ1HA/maxresdefault.jpg)](https://youtu.be/8uCIRfLJ1HA)
     [動作の様子](https://youtu.be/8uCIRfLJ1HA)
-- 	アームにお辞儀をさせる動作を追加
+- ### アームにお辞儀をさせる動作を追加
 	-	前左右の方向に深々とお辞儀する．
     [![お辞儀](https://img.youtube.com/vi/5FEK7ri63Ec/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
     [動作の様子](https://youtu.be/5FEK7ri63Ec)
 
 ---
 ## 高橋直也
--	書類に目を通す動作を追加
+-	### 書類に目を通す動作を追加
 	- 書類の上でアームを左右に動かす．
     [![書類に目を通す](https://img.youtube.com/vi/-X19rAL2V-g/maxresdefault.jpg)](https://youtu.be/-X19rAL2V-g)
     [動作の様子](https://youtu.be/-X19rAL2V-g)
 
 ---
 ## 横尾陸
--   ハンコを押すときのリアルを追求
+- ### ハンコを押すときのリアルを追求
 	- 力を入れて押すのをイメージしてアームを動かしたが、押す部分がずれてしまいきれいに映らなかったため導入しなかった。
     [![グリグリ](https://img.youtube.com/vi/7w3rHCQwpf0/maxresdefault.jpg)](https://youtu.be/7w3rHCQwpf0)
-    [動作の様子](https://youtu.be/7w3rHCQwpf0
+    [動作の様子](https://youtu.be/7w3rHCQwpf0)
 
--   移動経路が毎回異なる問題を解決
+- ### 移動経路が毎回異なる問題を解決
 	- 経路が違うことで、ハンコの向きが毎回異なりキレイにハンコが押せないという問題があり、srdfでハンコをつかむ前と押す前の姿勢を指定することで解決した。
 
-      ![SRDF](https://user-images.githubusercontent.com/53966390/98891101-d1703c80-24e0-11eb-90f5-d5230ef050fb.png)
+      <img src="https://user-images.githubusercontent.com/53966390/98891101-d1703c80-24e0-11eb-90f5-d5230ef050fb.png" width="640px">
 
-      ![PICK1](https://user-images.githubusercontent.com/53966390/98891114-daf9a480-24e0-11eb-934e-b3447273864f.png)
+      <img src="https://user-images.githubusercontent.com/53966390/98891114-daf9a480-24e0-11eb-934e-b3447273864f.png" width="320px">
 
-      ![BEFORE](https://user-images.githubusercontent.com/53966390/98891115-dc2ad180-24e0-11eb-8742-0e384b49c550.png)
+      <img src="https://user-images.githubusercontent.com/53966390/98891115-dc2ad180-24e0-11eb-8742-0e384b49c550.png" width="320px">
 
 ---
 ## 今後の課題・反省
