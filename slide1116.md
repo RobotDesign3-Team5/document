@@ -6,137 +6,143 @@
  デジタル化が進む中ハンコは必要だと河野大臣に反抗するためにハンコを押すロボットを開発する．
 
 ---
-## 活動方針
- - 10月12日にGitHub Organizationを作成．
- - RT crane_x7_ros リポジトリをForkし，各自ブランチを分けて作業．
-    - [久保寺 : masato](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/masato)
-    - [朱 : shu](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/shu)
-    - [白須 : kazuki_robo3](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/kazuki_robo3)
-    - [高橋 : naoya](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/naoya)
-    - [横尾 : rikuyokoo](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/rikuyokoo)
+## 計画・活動・進捗
+- ### 当初の計画と実際の進捗の比較
+  |No.|中間発表の動作|当初の予定動作|
+  |----|----|----|
+  |1.|お辞儀をする|指定の座標に置いたハンコまで移動する|
+  |2.|書類の文章をハンドでなぞって確認する|ハンコを掴む|
+  |3.|ハンコを選ぶ動作をする|朱肉につける|
+  |4.|ハンコを掴む|紙に捺印する|
+  |5.|朱肉をつける||
+  |6.|朱肉がついたか確認する||
+  |7.|書類の指定された位置に捺印する||
+  |8.|雑巾を用いてハンコについた朱肉を落とす||
+  |9.|ハンコを元の位置に戻す||
+  |10.|ホームポジションに戻る||
 
-    - [実機調整用ブランチ : dev](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/dev)
-    - [master](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/master)
- - 木曜日にミーティングを行い，進捗を確認．
+- ### リアル・面白さを追求
+  ただ捺印するのでは面白くない...ため，以下の要素を追加した．
+  - お辞儀する礼儀正しさ　
+  - 文章をなぞって確認する慎重さ
+  - 持つものを迷う人間らしさ
+  - 朱肉がついたかを確認する几帳面さ
+  - 使った後にハンコを拭き元に戻すきれい好き
 
----
-## 動作
-|No.|中間発表の動作|当初の予定動作|
-|----|----|----|
-|1.|お辞儀をする|指定の座標に置いたハンコまで移動する|
-|2.|書類の文章をハンドでなぞって確認する|ハンコを掴む|
-|3.|ハンコを選ぶ動作をする|朱肉につける|
-|4.|ハンコを掴む|紙に捺印する|
-|5.|朱肉をつける||
-|6.|朱肉がついたか確認する||
-|7.|書類の指定された位置に捺印する||
-|8.|雑巾を用いてハンコについた朱肉を落とす||
-|9.|ハンコを元の位置に戻す||
-|10.|ホームポジションに戻る||
+- ### 作業
+  - CRANE-X7
+    [RT crane_x7_ros リポジトリ](https://github.com/rt-net/crane_x7_ros)をForkし，各自ブランチを分けて作業
+    |名前|ブランチ|
+    |----|----|
+    |master|[master](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/master)|
+    |実機調整用|[dev](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/dev)|
+    |久保寺|[masato](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/masato)|
+    |朱|[shu](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/shu)|
+    |白須|[kazuki_robo3](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/kazuki_robo3)|
+    |高橋|[naoya](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/naoya)|
+    |横尾|[rikuyokoo](https://github.com/RobotDesign3-Team5/crane_x7_ros/tree/rikuyokoo)|
 
-動作のリアルさを追求することや，動作の確実性を求めて活動．
-- お辞儀する礼儀正しさ　
-- 文章をなぞって確認する慎重さ
-- 持つものを迷う人間らしさ
-- 朱肉がついたかを確認する几帳面さ
-- 使った後にハンコを拭き元に戻すきれい好き
+  - 月曜日・木曜日にdiscordで作業進捗の確認・タスクの振り分けを行った．
 
----
-## 最終的なタスク・進捗表
-  <img src="https://user-images.githubusercontent.com/53966390/98914660-4442dd00-250c-11eb-80bc-f432447c7950.png" width="640px">
+- ### 最終的なタスク・進捗表
+  <img src="https://user-images.githubusercontent.com/53966390/99192445-3e702480-27b6-11eb-8a06-aa3df815000c.png" width="640px">
 
 ---
 ## はんこを確実に持つために
   直径10mm円柱のハンコをCRANE-X7で持つには限界があり，補助パーツを作成し確実につかめるように改良しました．
-- ### 初期バージョン(10/20)
+- ### 初期バージョン(10/20時点)
   <img src="https://user-images.githubusercontent.com/53966390/98897015-bce67100-24ed-11eb-9c73-90998d6492cb.png" width="320px">
 
   [![初期モデルの動作](https://img.youtube.com/vi/Y_glLZigQeE/maxresdefault.jpg)](https://youtu.be/Y_glLZigQeE)
-  [動作の様子](https://youtu.be/Y_glLZigQeE)
+  ※画像をクリックするとYoutubeに飛びます．
 
 - ### 中間発表バージョン
+  滑り止めに輪ゴムを巻いた．
+
   <img src="https://user-images.githubusercontent.com/53966390/98893993-15fed680-24e7-11eb-913e-333a53b3b8e3.jpg" width="320px">
   <img src="https://user-images.githubusercontent.com/53966390/98893997-17300380-24e7-11eb-9199-25a2cc9a4085.jpg" width="320px">
 
 ---
 ## gazebo シミュレーション
-gazebo上に実際と同じ形のモデルを作成することで，シミュレーションを容易に行えるようにした．
-  <img src="https://user-images.githubusercontent.com/53966390/98899884-e30f0f80-24f3-11eb-924f-7da3aa69754d.png" width="320px">
+- ### 現実とできるだけ同じ環境を
+  gazebo上に実際と同じ外形・質量のモデルを作成．
 
-  -  [5班 gazeboセットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual#gazebo%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88)
+  [![gazeboシミュレーション](https://img.youtube.com/vi/7QZ74cGi8V4/maxresdefault.jpg)](https://youtu.be/7QZ74cGi8V4)
+  ※画像をクリックするとYoutubeに飛びます．
 
----
-## 環境
-- ### 実機動作
-  - ネイティブ ubuntu18.04
-  - CRANE-X7
-- ### シミュレーション
-  - ubuntu18.04
-    - ネイティブ OR Windows Subsystem for Linux(WSL)
-  - gazebo
+- ### マニュアル
+  [gazeboセットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual#gazebo%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88)
 
 ---
-## 使用するもの
-- ハンコ
-- 朱肉
-- 紙
-- ハンコマット
-- 雑巾
-- のり
-- 消しゴム
-- 電池
+## 実機動作
+- ### 使用するもの
+  - ハンコ
+  - 朱肉
+  - 紙(同意書)
+  - ハンコマット
+  - 雑巾
+  - のり
+  - 富士山消しゴム
+  - 電池
 
-<img src="https://user-images.githubusercontent.com/53966390/98886454-77b74480-24d7-11eb-9144-1a447d2191e7.png" width="640px">
+  <img src="https://user-images.githubusercontent.com/53966390/98886454-77b74480-24d7-11eb-9144-1a447d2191e7.png" width="640px">
 
-## 配置
-<img src="https://user-images.githubusercontent.com/53966271/98900657-90ceee00-24f5-11eb-842a-0d17a6daa277.jpg" width="640px">
+- ### 配置図
+  <img src="https://user-images.githubusercontent.com/53966271/98900657-90ceee00-24f5-11eb-842a-0d17a6daa277.jpg" width="640px">
+
+- ### 実機動作動画
+  - #### 前方カメラ
+    [![Watch the video](https://user-images.githubusercontent.com/53966390/98893099-19915e00-24e5-11eb-9425-247b738c1b3d.png)](https://youtu.be/xeJfs4FgBNw)
+    ※画像をクリックするとYoutubeに飛びます．
+
+  - ####  後方カメラ
+    [![Watch the video2](https://img.youtube.com/vi/b-fXhM-V2vc/maxresdefault.jpg)](https://youtu.be/b-fXhM-V2vc)
+    ※画像をクリックするとYoutubeに飛びます．
+
+- ### 捺印した書類
+  <img src="https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png" width="640px">
+
+- ### マニュアル
+  [実機動作マニュアル](https://github.com/RobotDesign3-Team5/setup_manual#%E5%AE%9F%E6%A9%9F%E3%82%92%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)
+
 
 ---
-## 実機動作動画（前方カメラ）
-[![Watch the video](https://user-images.githubusercontent.com/53966390/98893099-19915e00-24e5-11eb-9425-247b738c1b3d.png)](https://youtu.be/xeJfs4FgBNw)
-※画像をクリックするとYoutubeに飛びます．
+## 久保寺
+- ### 基となるプログラムの作成
+  - ハンコを掴み，朱肉につけ，捺印する動作の作成
+  - 関数の作成
 
----
-## 実機動作動画（後方カメラ）
-[![Watch the video2](https://img.youtube.com/vi/b-fXhM-V2vc/maxresdefault.jpg)](https://youtu.be/b-fXhM-V2vc)
-※画像をクリックするとYoutubeに飛びます．
+- ### gazeboモデルの作成
+  モデルを inventor & blender で作成，config・sdfを作成しgazeboに反映，リポジトリ化
+    - [ハンコ＋補助モデル](https://github.com/RobotDesign3-Team5/asstseal_model)
 
----
-## 捺印した書類
-<img src="https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png" width="640px">
-  
----
-## 久保寺真仁
-- ### モデルを inventor & blender で作成，gazeboに反映
-    - modelごとにリポジトリを作成
-      - [ハンコ＋補助モデル](https://github.com/RobotDesign3-Team5/asstseal_model)
+        <img src="https://user-images.githubusercontent.com/53966390/98900675-988e9280-24f5-11eb-9e70-8b6100c64a77.jpg" width="320px">
+        <img src="https://user-images.githubusercontent.com/53966390/98900678-99272900-24f5-11eb-96c8-c785c0fa6082.jpg" width="320px">
 
-          <img src="https://user-images.githubusercontent.com/53966390/98900675-988e9280-24f5-11eb-9e70-8b6100c64a77.jpg" width="320px">
-          <img src="https://user-images.githubusercontent.com/53966390/98900678-99272900-24f5-11eb-96c8-c785c0fa6082.jpg" width="320px">
+    - [ハンコ台](https://github.com/RobotDesign3-Team5/storage_model)
 
-      - [ハンコ台](https://github.com/RobotDesign3-Team5/storage_model)
+        <img src="https://user-images.githubusercontent.com/53966390/98900668-96c4cf00-24f5-11eb-8b81-0fe8388586a7.jpg" width="320px">
 
-          <img src="https://user-images.githubusercontent.com/53966390/98900668-96c4cf00-24f5-11eb-8b81-0fe8388586a7.jpg" width="320px">
+    - [朱肉](https://github.com/RobotDesign3-Team5/inkpad_model)
 
-      - [朱肉](https://github.com/RobotDesign3-Team5/inkpad_model)
+        <img src="https://user-images.githubusercontent.com/53966390/98900671-97f5fc00-24f5-11eb-95a0-b5781d9777db.jpg" width="320px">
 
-          <img src="https://user-images.githubusercontent.com/53966390/98900671-97f5fc00-24f5-11eb-95a0-b5781d9777db.jpg" width="320px">
+    - [ハンコマット](https://github.com/RobotDesign3-Team5/sealmat_model)
 
-      - [ハンコマット](https://github.com/RobotDesign3-Team5/sealmat_model)
+        <img src="https://user-images.githubusercontent.com/53966390/98900670-97f5fc00-24f5-11eb-8ccf-9839927e9fd1.jpg" width="320px">
 
-          <img src="https://user-images.githubusercontent.com/53966390/98900670-97f5fc00-24f5-11eb-8ccf-9839927e9fd1.jpg" width="320px">
+    - [雑巾](https://github.com/RobotDesign3-Team5/TissuePaper_model)
 
-      - [雑巾](https://github.com/RobotDesign3-Team5/TissuePaper_model)
+        <img src="https://user-images.githubusercontent.com/53966390/98900677-988e9280-24f5-11eb-8647-7b0109d05435.jpg" width="320px">
 
-          <img src="https://user-images.githubusercontent.com/53966390/98900677-988e9280-24f5-11eb-8647-7b0109d05435.jpg" width="320px">
+    - 下記のモデルinventor設計は主に**朱広樹**が担当し，リポジトリ化を行った．
+    
+      - [消しゴム](https://github.com/RobotDesign3-Team5/eraser_model)
+      - [電池](https://github.com/RobotDesign3-Team5/battery_model)
+      - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
 
-      - モデルinventor設計は主に**朱広樹**が担当
-      
-        - [消しゴム](https://github.com/RobotDesign3-Team5/eraser_model)
-        - [電池](https://github.com/RobotDesign3-Team5/battery_model)
-        - [スティックのり](https://github.com/RobotDesign3-Team5/GlueStick_model)
-
-      <img src="https://user-images.githubusercontent.com/53966390/98899884-e30f0f80-24f3-11eb-924f-7da3aa69754d.png" width="640px">
+      <img src="https://user-images.githubusercontent.com/53966390/99193064-d4597e80-27b9-11eb-84df-2da3eb9a9b98.png" width="640px">
+ 
 
 - ### ハンコ補助モデルの３Dプリントパーツの作成
     <img src="https://user-images.githubusercontent.com/53966390/98897896-bbb64380-24ef-11eb-9a95-c6d6a5ef4a4b.jpg" width="320px">
@@ -152,17 +158,20 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
   -  [セットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual)
 
 ---
-## 朱広樹
+## 朱
 - ### 物品の購入・研修・採寸
-	- ハンコ・ハンコマット・朱肉
--	### モデル作成
-	- スティックのり・消しゴム・電池モデルをInventorで作成
+	- ハンコ・ハンコマット・朱肉の購入，研修，採寸を行った．
+-	### gazeboモデルの作成
+    inventorでモデルを作成した．
 
-      <img src="https://user-images.githubusercontent.com/53966390/98897377-9e34aa00-24ee-11eb-9d2e-8dc23c2430b9.png" width="320px">
+    - スティックのり
+    <img src="https://user-images.githubusercontent.com/53966390/99193306-7ded3f80-27bb-11eb-8427-b42d823f35fc.png" width="320px">
 
-      <img src="https://user-images.githubusercontent.com/53966390/98897378-9e34aa00-24ee-11eb-8533-5c8a92231288.png" width="320px">
+    - 消しゴム
+    <img src="https://user-images.githubusercontent.com/53966390/99193302-7c237c00-27bb-11eb-8dd6-60ff91708fcb.png" width="320px">
 
-      <img src="https://user-images.githubusercontent.com/53966390/98897373-9d037d00-24ee-11eb-96a3-888be10ec1c4.png" width="320px">
+    - 電池
+    <img src="https://user-images.githubusercontent.com/53966390/99193305-7d54a900-27bb-11eb-91aa-d076194d8d56.png" width="320px">
 
 -	### ハンコを選び，迷う動作を追加
 	-	スティックのり・消しゴム・電池を掴みそうになる動作
@@ -172,7 +181,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
       ![image](https://user-images.githubusercontent.com/53966390/98916291-59207000-250e-11eb-9548-71232c884ea7.png)
 
 ---
-## 白須和暉
+## 白須
 - ### アームにお辞儀をさせる動作を追加
 	-	前左右の方向に深々とお辞儀する．
     [![お辞儀](https://img.youtube.com/vi/5FEK7ri63Ec/maxresdefault.jpg)](https://youtu.be/5FEK7ri63Ec)
@@ -188,7 +197,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
     ![image](https://user-images.githubusercontent.com/53966390/98916510-9a188480-250e-11eb-8c6c-ae675615a52b.png)
 
 ---
-## 高橋直也
+## 高橋
 -	### 書類に目を通す動作を追加
 	- 書類の上でアームを左右に動かす．
     [![書類に目を通す](https://img.youtube.com/vi/-X19rAL2V-g/maxresdefault.jpg)](https://youtu.be/-X19rAL2V-g)
@@ -198,7 +207,11 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
 
 
 ---
-## 横尾陸
+## 横尾
+- ### 基となるプログラムの作成
+  - ハンコを掴み，朱肉につけ，捺印する動作の作成
+  - 関数の作成
+
 - ### ハンコを押すときのリアルを追求
 	- 力を入れて押すのをイメージしてアームを動かしたが、押す部分がずれてしまいきれいに映らなかったため導入しなかった。
     [![グリグリ](https://img.youtube.com/vi/7w3rHCQwpf0/maxresdefault.jpg)](https://youtu.be/7w3rHCQwpf0)
@@ -216,7 +229,7 @@ gazebo上に実際と同じ形のモデルを作成することで，シミュ�
       <img src="https://user-images.githubusercontent.com/53966390/98891115-dc2ad180-24e0-11eb-8742-0e384b49c550.png" width="320px">
 
 - ### セットアップマニュアル(README)を作成
-
+  -  [セットアップマニュアル](https://github.com/RobotDesign3-Team5/setup_manual)
 ---
 ## 今後の課題・反省
 
