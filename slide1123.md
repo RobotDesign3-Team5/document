@@ -5,7 +5,7 @@ class: center, middle, inverse
 # 設計製作論3 知能コース 5班
 2020/11/23
 
-<img src="https://user-images.githubusercontent.com/53966390/99927589-30f40500-2d89-11eb-9776-83326d2bec44.png" width="320px">
+<img src="https://user-images.githubusercontent.com/53966390/99927589-30f40500-2d89-11eb-9776-83326d2bec44.png" width="480px">
 
 ---
 layout:false
@@ -13,7 +13,7 @@ layout:false
 ##  何をやるか1
 - 中間発表では，ハンコの座標を指定して，座標通りにアームを動かしていた．
 - 中間の応用として,RealSenseでハンコを認識，掴み捺印をする．
-<img src="https://user-images.githubusercontent.com/53966271/99927030-2b95bb00-2d87-11eb-877e-674b6884ed67.png" width="320px">
+<img src="https://user-images.githubusercontent.com/53966271/99927030-2b95bb00-2d87-11eb-877e-674b6884ed67.png" width="640px">
 
 ---
 ## 何をやるか2
