@@ -153,6 +153,19 @@
 ---
 ## 三渕
 - ロボットがそこにある紙を見つけて悪巧みをする動作の追加
-
+```python
+        #紙を見つける
+        arm.set_named_target("home")
+        arm.go()
+        arm_move(0.2 , 0.05, 0.3)
+        
+        #周囲に誰もいないか確認
+        arm.set_named_target("home")
+        arm.go()
+        
+        joint_move(0,-80)
+        joint_move(0,160)
+        joint_move(0,-160)
+```
 ---
 ## 
