@@ -9,6 +9,8 @@
 ## Realsense
 担当：横尾
 
+realsenseを使うためのコードを書いた．(color_detection.cpp)
+
 ---
 ## ノード分割
 担当：久保寺・横尾(RealSense)
@@ -147,6 +149,7 @@
 ---
 ## 横尾
 - ### RealSense
+  - color_detection.cppでハンコの位置をpublishしdetect_seal.pyでそれをsubscribしハンコの上に移動をする。
 
 - ### [README]()の作成
 
