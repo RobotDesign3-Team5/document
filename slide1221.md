@@ -115,9 +115,6 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 
 ---
 ## 久保寺
-- ### パッケージ整備
-    - RT CRANE-X7パッケージ [crane_x7_ros](https://github.com/rt-net/crane_x7_ros)を基に，最終発表用パッケージ[crane_x7_ros_team5](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5)を作成，整備．
-
 - ### ノード分け
   - 詳細は上記記載．
 
