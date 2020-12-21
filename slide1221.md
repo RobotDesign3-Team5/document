@@ -173,8 +173,6 @@ layout:false
         arm.set_named_target("vertical")
         arm.go()
 ```
-
----
 ```.py
         # 拭く
         arm_move(wipe_x, wipe_y, wipe_before_z)
