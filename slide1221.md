@@ -90,7 +90,7 @@ color_detection.cppでハンコの位置をpublishしdetect_seal.pyでそれをs
 
 - ### 配置
   - 配置図
-  <img src="" width="640px">
+  <img src="https://user-images.githubusercontent.com/53966390/102739889-a7d4eb80-4391-11eb-92d0-05434579e3d9.png" width="320px">
   
   - 実際の配置の様子
   
@@ -123,8 +123,6 @@ color_detection.cppでハンコの位置をpublishしdetect_seal.pyでそれをs
   
     <img src="https://user-images.githubusercontent.com/53966390/102739837-8d9b0d80-4391-11eb-90b1-3bb1ca471027.png" width="320px">
     
-    <img src="https://user-images.githubusercontent.com/53966390/102739889-a7d4eb80-4391-11eb-92d0-05434579e3d9.png" width="320px">
-  
   - gazeboモデルをclone/pullを行う[bash](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/gazebo.bash)を作成．
 
 - ### 3Dプリンタパーツ
