@@ -91,17 +91,8 @@ layout:false
     <img src="https://user-images.githubusercontent.com/53966390/102635348-86f47680-4196-11eb-8b9b-be4c5ebab78a.png" width="160px">
     
   - 朱肉
-  
-    <img src="https://user-images.githubusercontent.com/53966390/102635814-2dd91280-4197-11eb-85d6-72ca9e22fbaa.png" width="160px">
-
-  - ハンコマット
-  
-    <img src="https://user-images.githubusercontent.com/53966390/102636029-7b557f80-4197-11eb-894d-bb4f4c41b7a2.png" width="160px">
-    
+  - ハンコマット    
   - 雑巾
-  
-    <img src="https://user-images.githubusercontent.com/53966390/102636044-7f819d00-4197-11eb-9056-ad040ac64587.png" width="160px">
-    
   - 紙
 
 ---
