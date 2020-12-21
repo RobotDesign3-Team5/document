@@ -1,7 +1,7 @@
 # 5班最終発表
 ---
 ## テーマ
- CRANE-X7で捺印をさせる
+ RealSenseを用いて複数から一個のハンコを選択しCRANE-X7で捺印をさせる
 ## 何でこれをやるか・何が面白いか
  デジタル化が進む中ハンコは必要だと河野大臣に反抗するためにハンコを押すロボットを開発する．
 
@@ -9,7 +9,7 @@
 ## Realsense
 担当：横尾
 
-- realsenseを使うためのコードを書いた．(color_detection.cpp)  
+- RealSenseを使うためのコードを書いた．(color_detection.cpp)  
 ### 画像認識手順
 1.  `cv_bridge::toCvCopy`で取り込んだ画像をopencv形式に変換する。
 2.  取り込んだ画像をrgbからhsvに変換(`cvtColor`でRGB空間からHSV空間へ色変換)
