@@ -58,7 +58,7 @@ layout:false
 
 ---
   - ### サブノード
-    <img src="https://user-images.githubusercontent.com/53966390/102743330-9b08c580-439a-11eb-9924-19ee129484c5.png" width="320px">
+    <img src="https://user-images.githubusercontent.com/53966390/102743330-9b08c580-439a-11eb-9924-19ee129484c5.png" width="640px">
 
     ※プログラム名(**ノード名**)
 
