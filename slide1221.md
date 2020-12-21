@@ -10,6 +10,15 @@
 担当：横尾
 
 - realsenseを使うためのコードを書いた．(color_detection.cpp)  
+## 画像認識手順
+1.  画像を取り込む
+2.  取り込んだ画像をrgbからhsvに変換(cvtColorでRGB空間からHSV空間へ色変換)
+3.  cv::scallr()で指定のHSV値域(上限下限)を決める．
+4.  inRange()でHSV値域を指定して2値化する.(持ちたいハンコの色と他の色に分ける)
+5.  指定した色が密集している地点を探す(cv::countourArea())
+6.  contours.at(max_area_contour).size();で重心を求める．
+7.  opencvの座標からcrane_x7の座標に変換する．
+
 - color_detection.cppでハンコの位置をpublishしdetect_seal.pyでそれをsubscribしハンコの上に移動をする。
   <img src="https://user-images.githubusercontent.com/53966390/102741852-ca1d3800-4396-11eb-9a03-15df45ee9a5f.png" width="640px">
 
