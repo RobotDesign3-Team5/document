@@ -1,5 +1,14 @@
-# 5班最終発表
+name: inverse
+layout: true
+class: center, middle, inverse
+
 ---
+# 5班最終発表
+2020/12/21
+
+---
+layout:false
+
 ## テーマ
  CRANE-X7で捺印をさせる
 ## 何でこれをやるか・何が面白いか
