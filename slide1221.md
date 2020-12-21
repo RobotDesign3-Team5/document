@@ -91,7 +91,7 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
     <img src="https://user-images.githubusercontent.com/53966390/102636762-66c5b700-4198-11eb-89b8-87cf2d557c3d.png" width="640px">
 
 - ### 実機動作動画
-  [![Watch the video](https://user-images.githubusercontent.com/53966390/102637368-3af70100-4199-11eb-8645-b9c9cabc4b6d.png)](https://youtu.be/jt43LZcb014)
+  [![Watch the video](https://user-images.githubusercontent.com/53966390/102637368-3af70100-4199-11eb-8645-b9c9cabc4b6d.png)](https://youtu.be/9OlL5LOPKds)
   ※画像をクリックするとYoutubeに飛びます．
 
 ---
