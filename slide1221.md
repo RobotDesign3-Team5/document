@@ -26,6 +26,7 @@ layout:false
 
 [動画リンク](https://youtu.be/xW340XSSgkM)
 
+---
 ### 問題点、改善点  
 2次元で画像を考えていてcrane_x7が動くことでカメラの角度が変わり座標がずれてしまった.今回は掴みにいく条件を広く設定することで対処した。realsenseの深度などの機能を使うことができたら良かったが今回は使うことができなかった.
 
@@ -57,18 +58,7 @@ layout:false
 
 ---
   - ### サブノード
-    |プログラム名|ノード名|動作名|動作内容|動作作成者|
-    |---|---|---|---|---|
-    |[greet.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/greet.py)|greet|Greet|お辞儀|白須|
-    |[artifice.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/artifice.py)|Artifice|Artifice|悪巧み|三渕|
-    |[check.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/check.py)|check|Check|書類の確認|高橋|
-    |[grab_release.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/grab_release.py)|Grab_Release|Exclusion|ハンコを掃ける|白須|
-    |〃|〃|Release|ハンコを戻す|横尾|
-    |[detect_seal.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/detect_seal.py)|detect_seal|Detect|ハンコを認識して掴む|横尾|
-    |[push_check.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/push_check.py)|Push_Check|PushCheck|ハンコに朱肉が付いたか確認|久保寺|
-    |[seal.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/seal.py)|Seal|Seal|捺印|横尾|
-    |[wipe.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/wipe.py)|Wipe|Wipe|拭く|白須|
-    |[guts_pose.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/guts_pose.py)|Guts_Pose|GutsPose|ガッツポーズ!?|高橋|
+    <img src="https://user-images.githubusercontent.com/53966390/102743330-9b08c580-439a-11eb-9924-19ee129484c5.png" width="320px">
 
     ※プログラム名(**ノード名**)
 
