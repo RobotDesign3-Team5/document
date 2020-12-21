@@ -10,7 +10,7 @@
 担当：横尾
 
 - realsenseを使うためのコードを書いた．(color_detection.cpp)  
-## 画像認識手順
+### 画像認識手順
 1.  画像を取り込む
 2.  取り込んだ画像をrgbからhsvに変換(cvtColorでRGB空間からHSV空間へ色変換)
 3.  cv::scallr()で指定のHSV値域(上限下限)を決める．
