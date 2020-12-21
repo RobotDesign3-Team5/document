@@ -32,18 +32,19 @@
 
       - Subscriber : 各ノードから終了フラグを受け取り，次の動きに移る．
 
----        
-      ```.py
-      ActionNames = ["Greet", "Artifice", "Check", "Exclusion", "Detect", "PushCheck", "Seal", "Wipe", "Release", "GutsPose"]
+---
 
-      for i in range(len(ActionNames)):
-          pub.publish(ActionNames[i])
+ ```.py
+ ActionNames = ["Greet", "Artifice", "Check", "Exclusion", "Detect", "PushCheck", "Seal", "Wipe", "Release", "GutsPose"]
 
-          FinishFlag = False
-          while FinishFlag != True :
-              pass
-      ```
-      ※ノードに指示を出す部分のみ抽出
+ for i in range(len(ActionNames)):
+     pub.publish(ActionNames[i])
+
+     FinishFlag = False
+     while FinishFlag != True :
+         pass
+ ```
+ ※ノードに指示を出す部分のみ抽出
 
 ---
   - ### サブノード
