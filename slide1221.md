@@ -115,7 +115,7 @@
   
 ---
 - ### 最終的なタスク・進捗表
-  <img src="" width="640px">
+  <img src="https://user-images.githubusercontent.com/53966390/102742532-757abc80-4398-11eb-933f-228feec54b2b.png" width="640px">
 
 ---
 ## 久保寺
