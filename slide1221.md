@@ -96,12 +96,6 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 
 ---
 - ### 捺印した書類
-  - **中間発表**
-  
-    設計製作論3の単位保証同意書に捺印
-    
-    <img src="https://user-images.githubusercontent.com/53966390/98889012-78060e80-24dc-11eb-8049-21da81ebe235.png" width="640px">
-   
   - **最終発表**
   
     小切手に捺印させていただきました！！
@@ -121,7 +115,9 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 - ### gazebo
   - gazeboシミュレーション環境を最終発表仕様に変更．
   
-    <img src="" width="320px">
+    <img src="https://user-images.githubusercontent.com/53966390/102739837-8d9b0d80-4391-11eb-90b1-3bb1ca471027.png" width="320px">
+    
+    <img src="https://user-images.githubusercontent.com/53966390/102739889-a7d4eb80-4391-11eb-92d0-05434579e3d9.png" width="320px">
   
   - gazeboモデルをclone/pullを行う[bash](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/gazebo.bash)を作成．
 
