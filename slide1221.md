@@ -10,6 +10,12 @@
 担当：横尾
 
 realsenseを使うためのコードを書いた．(color_detection.cpp)
+座標の中心を画像の中心にし,ハンコが右上、右下、左上、左下のどこにあるかを検出してハンコの上まで移動していく。
+[](ここに動画を入れる)
+
+問題点、改善点
+2次元で画像を考えていてcrane_x7が動くことでカメラの角度が変わり座標がずれてしまった.今回は掴みにいく条件を広く設定することで対処した。realsenseの機能を最大限活かしきれなかった.
+
 
 ---
 ## ノード分割
@@ -43,7 +49,7 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
     |[check.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/check.py)|check|Check|書類の確認|高橋|
     |[grab_release.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/grab_release.py)|Grab_Release|Exclusion|ハンコを掃ける|白須|
     |〃|〃|Release|ハンコを戻す|横尾|
-    |||Detect|ハンコを認識して掴む|横尾|
+    |[detect_seal.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/detect_seal.py)|detect_seal|Detect|ハンコを認識して掴む|横尾|
     |[push_check.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/push_check.py)|Push_Check|PushCheck|ハンコに朱肉が付いたか確認|久保寺|
     |[seal.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/seal.py)|Seal|Seal|捺印|横尾|
     |[wipe.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/wipe.py)|Wipe|Wipe|拭く|白須|
