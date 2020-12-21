@@ -154,7 +154,7 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
         arm.go()
 ```  
 ```.py
-       # 拭く
+        # 拭く
         arm_move(wipe_x, wipe_y, wipe_before_z)
         for i in range(6):
             arm_move(wipe_x, wipe_y, wipe_z)
