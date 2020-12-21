@@ -136,7 +136,7 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 
 ---
 ## 白須  
-- for文を用いてお辞儀や拭く動作のコードを改善
+- 中間発表で使用したコードの改良
 ```.py
         # お辞儀
         arm.set_named_target("vertical")
@@ -152,6 +152,18 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
             joint2_deg = joint2_deg + 90
         arm.set_named_target("vertical")
         arm.go()
+```  
+```.py
+       # 拭く
+        arm_move(wipe_x, wipe_y, wipe_before_z)
+        for i in range(6):
+            arm_move(wipe_x, wipe_y, wipe_z)
+            rospy.sleep(0.5)
+            if i % 2 == 0:
+                wipe_x = wipe_x + 0.02
+            else:
+                wipe_x = wipe_x - 0.02
+        arm_move(wipe_x, wipe_y, wipe_after_z)
 ```
 - 使わないはんこを掃ける動作の追加
 
