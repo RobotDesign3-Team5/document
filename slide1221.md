@@ -137,6 +137,22 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 ---
 ## 白須  
 - for文を用いてお辞儀や拭く動作のコードを改善
+```.py
+        # お辞儀
+        arm.set_named_target("vertical")
+        arm.go()
+        joint_move(3,joint3_deg)
+        rospy.sleep(1.0)
+        for i in range(2):
+            arm.set_named_target("vertical")
+            arm.go()
+            joint_move(2,joint2_deg)
+            joint_move(3,joint3_deg)
+            rospy.sleep(1.0)
+            joint2_deg = joint2_deg + 90
+        arm.set_named_target("vertical")
+        arm.go()
+```
 - 使わないはんこを掃ける動作の追加
 
 ---
@@ -153,19 +169,4 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 ---
 ## 三渕
 - ロボットがそこにある紙を見つけて悪巧みをする動作の追加
-```python
-        #紙を見つける
-        arm.set_named_target("home")
-        arm.go()
-        arm_move(0.2 , 0.05, 0.3)
-        
-        #周囲に誰もいないか確認
-        arm.set_named_target("home")
-        arm.go()
-        
-        joint_move(0,-80)
-        joint_move(0,160)
-        joint_move(0,-160)
-```
 ---
-## 
