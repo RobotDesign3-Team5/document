@@ -11,7 +11,7 @@
 
 - realsenseを使うためのコードを書いた．(color_detection.cpp)  
 - color_detection.cppでハンコの位置をpublishしdetect_seal.pyでそれをsubscribしハンコの上に移動をする。
-  <img src="https://user-images.githubusercontent.com/53966390/102741852-ca1d3800-4396-11eb-9a03-15df45ee9a5f.png" width="320px">
+  <img src="https://user-images.githubusercontent.com/53966390/102741852-ca1d3800-4396-11eb-9a03-15df45ee9a5f.png" width="640px">
 
 - 座標の中心を画像の中心にし,ハンコ(今回は緑色を指定)が右上、右下、左上、左下のどこにあるかを検出してハンコの上まで移動していく。  
 
