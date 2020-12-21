@@ -31,7 +31,8 @@
       - Publisher : 動作名(String)を送ることで，各ノードに動きの指示を行う．
 
       - Subscriber : 各ノードから終了フラグを受け取り，次の動きに移る．
-        
+
+---        
       ```.py
       ActionNames = ["Greet", "Artifice", "Check", "Exclusion", "Detect", "PushCheck", "Seal", "Wipe", "Release", "GutsPose"]
 
@@ -44,6 +45,7 @@
       ```
       ※ノードに指示を出す部分のみ抽出
 
+---
   - ### サブノード
     |プログラム名|ノード名|動作名|動作内容|動作作成者|
     |---|---|---|---|---|
@@ -60,6 +62,7 @@
 
     ※プログラム名(**ノード名**)
 
+---
   - ### 関数
     - [move_def.py](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/crane_x7_examples/scripts/move_def.py) : **アームやハンドの動きのオリジナル関数をまとめた.**
     各ノードで`from move_def import <関数名>`で呼び出し．
@@ -91,11 +94,13 @@
     
   - 紙
 
+---
 - ### 配置
   - 配置図
   
     <img src="https://user-images.githubusercontent.com/53966390/102739889-a7d4eb80-4391-11eb-92d0-05434579e3d9.png" width="320px">
-  
+
+---  
   - 実際の配置の様子
   
     <img src="https://user-images.githubusercontent.com/53966390/102636762-66c5b700-4198-11eb-89b8-87cf2d557c3d.png" width="640px">
@@ -129,6 +134,7 @@
     
   - gazeboモデルをclone/pullを行う[bash](https://github.com/RobotDesign3-Team5/crane_x7_ros_team5/blob/master/gazebo.bash)を作成．
 
+---
 - ### 3Dプリンタパーツ
   [ハンコモデル](https://github.com/RobotDesign3-Team5/colorseal_model)を新たに3個作成．
   
@@ -156,7 +162,9 @@
             joint2_deg = joint2_deg + 90
         arm.set_named_target("vertical")
         arm.go()
-```  
+```
+
+---
 ```.py
         # 拭く
         arm_move(wipe_x, wipe_y, wipe_before_z)
