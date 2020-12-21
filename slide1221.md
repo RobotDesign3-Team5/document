@@ -14,10 +14,11 @@
 1.  cv_bridge::toCvCopyで取り込んだ画像をopencv形式に変換する。
 2.  取り込んだ画像をrgbからhsvに変換(cvtColorでRGB空間からHSV空間へ色変換)
 3.  cv::scallr()で指定のHSV値域(上限下限)を決める.(今回は緑色の範囲を指定)
-4.  inRange()でHSV値域を指定して2値化する.(持ちたいハンコの色と他の色に分ける)
-5.  指定した色が密集している地点を探す(cv::countourArea())
+4.  inRange()で3.で指定した範囲で2値化する.
+5.  指定した色の面積が最大の部分を見つける(cv::countourArea())
 6.  contours.at(max_area_contour).size();で重心を求める．
-7.  opencvの座標からcrane_x7の座標に変換する．
+7.  opencvの座標を中心を(0,0)になるように変換
+8.  変換後のハンコの位置をPublishする  
 
 - color_detection.cppでハンコの位置をpublishしdetect_seal.pyでそれをsubscribしハンコの上に移動をする。
   <img src="https://user-images.githubusercontent.com/53966390/102741852-ca1d3800-4396-11eb-9a03-15df45ee9a5f.png" width="640px">
