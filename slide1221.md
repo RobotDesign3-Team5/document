@@ -84,6 +84,7 @@ realsenseを使うためのコードを書いた．(color_detection.cpp)
 
 - ### 配置
   - 配置図
+  
     <img src="https://user-images.githubusercontent.com/53966390/102739889-a7d4eb80-4391-11eb-92d0-05434579e3d9.png" width="320px">
   
   - 実際の配置の様子
