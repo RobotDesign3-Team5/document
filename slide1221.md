@@ -11,9 +11,9 @@
 
 - realsenseを使うためのコードを書いた．(color_detection.cpp)  
 ### 画像認識手順
-1.  画像を取り込む
+1.  cv_bridge::toCvCopyで取り込んだ画像をopencv形式に変換する。
 2.  取り込んだ画像をrgbからhsvに変換(cvtColorでRGB空間からHSV空間へ色変換)
-3.  cv::scallr()で指定のHSV値域(上限下限)を決める．
+3.  cv::scallr()で指定のHSV値域(上限下限)を決める.(今回は緑色の範囲を指定)
 4.  inRange()でHSV値域を指定して2値化する.(持ちたいハンコの色と他の色に分ける)
 5.  指定した色が密集している地点を探す(cv::countourArea())
 6.  contours.at(max_area_contour).size();で重心を求める．
